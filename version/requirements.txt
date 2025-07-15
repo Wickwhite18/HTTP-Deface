@@ -102,7 +102,7 @@ dicttoxml==1.7.15
 diskcache==5.4.0
 distlib==0.3.6
 distro==1.8.0
-Django==3.2.16
+Django==4.2.22
 dnslib==0.9.23
 dnspython==2.2.1
 docopt==0.6.2
@@ -163,7 +163,7 @@ graphene-sqlalchemy==2.1.2
 graphql-core==2.2.1
 graphql-relay==2.0.1
 greenlet==2.0.1
-h11==0.14.0
+h11==0.16.0
 h2==4.1.0
 hashID==3.1.4
 hiredis==1.0.1
@@ -302,7 +302,7 @@ portend==3.1.0
 prettytable==3.6.0
 promise==2.3
 prompt-toolkit==3.0.36
-protobuf==4.21.12
+protobuf==4.25.8
 prov==2.0.0
 psutil==5.9.4
 psycopg==3.1.7
@@ -319,7 +319,7 @@ pyarmor==7.7.4
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycairo==1.20.1
-pycares==4.1.2
+pycares==4.9.0
 pycparser==2.21
 pycrypto==2.6.1
 pycryptodome==3.16.0
@@ -405,7 +405,7 @@ rdflib==6.2.0
 redis==4.3.4
 regex==2022.10.31
 repoze.lru==0.7
-requests==2.28.1
+requests==2.32.4
 requests-file==1.5.1
 requests-html==0.10.0
 requests-toolbelt==0.10.1
@@ -469,7 +469,7 @@ tinycss2==1.2.1
 tld==0.11.11
 tls-parser==1.2.2
 tomli==2.0.1
-tornado==6.1
+tornado==6.5
 tqdm==4.64.1
 traitlets==5.5.0
 traits==6.3.2
@@ -488,7 +488,7 @@ unicodedata2==15.0.0
 unicrypto==0.0.9
 Unidecode==1.3.6
 uritemplate==4.1.1
-urllib3==1.26.12
+urllib3==2.5.0
 urwid==2.1.2
 uvicorn==0.17.6
 uvloop==0.17.0
@@ -530,3 +530,4 @@ zipp==1.0.0
 zlib-wrapper==0.1.3
 zope.deprecation==4.4.0
 zope.interface==5.5.2
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
